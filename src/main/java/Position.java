@@ -28,16 +28,16 @@ public class Position {
         int newY = y;
 
         switch (heading.getDirection()) {
-            case East:
+            case E:
                 newX = x + 1;
                 break;
-            case North:
+            case N:
                 newY = y + 1;
                 break;
-            case South:
+            case S:
                 newY = y - 1;
                 break;
-            case West:
+            case W:
                 newX = x - 1;
                 break;
             default:

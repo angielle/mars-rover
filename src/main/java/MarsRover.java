@@ -18,12 +18,12 @@ public class MarsRover {
         scanner.close();
     }
 
-    private Position position;
-    private Heading heading;
+    public Position position;
+    public Heading heading;
 
     public MarsRover() {
         this.position = new Position(0, 0);
-        this.heading = new Heading(Direction.North);
+        this.heading = new Heading(Direction.N);
     }
 
     public Position executeInstructions(String instructions) {
