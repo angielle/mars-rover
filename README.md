@@ -29,6 +29,6 @@ LMLMLMLMLM
 
 **Steps**
 1. Clone the repository to local machine
-2. Open a terminal inside the root of the project directoryy
+2. Open a terminal inside the root of the project directory
 3. Run `java -cp target/classes MarsRover`
 4. To test the unit cases, run `mvn test`
